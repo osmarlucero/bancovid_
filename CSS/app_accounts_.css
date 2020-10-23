@@ -1,0 +1,243 @@
+.data{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+.font_style{
+	font-family: 'Arial';
+	color: #ffbc00;
+}
+.height_{
+	padding-top:80px;
+}
+#contactme_main{
+	width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 80px;
+    min-height: 141px;
+}
+#span_contact{
+	display: inline-block;
+    width: 100%;
+	padding-right:120px;
+    
+    min-height: 236px;
+}
+#span_contact ul {
+	list-style:none;
+	margin-left:-25px;
+}
+#span_contact ul li{
+	width:10%;
+	padding-bottom:25px;
+}
+
+#span_contact li{
+	display: inline;
+}
+
+#span_center{
+	width: 100%;
+	display: flex;
+}
+
+.span_content{
+	width: 50%;
+}
+
+
+.font_span{
+	margin-left:15px;
+	font-size:22px;
+}
+.contact_place{
+	user-select: none;
+	outline:0;
+    background-color: #816d8b;
+    border-radius: 5px;
+    border-style: none;
+    border-bottom: 4px solid rgba(0,0,0,0.1);
+}
+.contact_place:focus{
+	transition:0.5s;
+	background-color:black;
+}
+.contact_place::placeholder {
+	color:#ffbc00;
+}
+.span_padd{
+	padding:15px 185px 15px 15px;
+}
+.span_padd_area{
+	padding:15px 195px 50px 15px;
+}
+#button_send{
+	width: 29%;
+    margin: auto;
+    display: flex;
+}
+
+#button_send a{
+	margin: 20px;
+}
+
+.button_reference{
+	display:table-cell;
+}
+.button_style{
+	user-select: none;
+    background-color: #816d8b;
+    border-radius: 5px;
+    border-style: none;
+    border-bottom: 4px solid rgba(0,0,0,0.1);
+}
+.button_style:hover{
+	background-color: #74627d;
+    border-bottom: 4px solid rgba(0,0,0,0);
+	cursor:pointer;
+
+}
+.button_style:active{
+	transition:0.5s;
+	background-color:black;
+    
+}
+.button_padd_price{
+	padding: 5px 15px;
+}
+#span_image{
+	display: inline-block;
+    width: 51%;
+}
+.profile_contact{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 180px;;
+}
+.profile_small{
+	display: inline-block;
+    width: 85%;
+    max-height: 118px;
+    background-color: #272626;
+    border-radius: 50%;
+}
+#contact-info-main{
+	padding-top:35px;
+}
+#contact-info{	
+    background: rgba(42, 42, 42, 0.7);
+	border-radius:5px;
+	padding:1px 0px 1px 15px;
+}
+.border_contact{
+	border-bottom: 2px dashed;
+    width: 58%;
+}
+#contact_me{
+	width: 100%;
+	margin-top: 30px;
+    display: inline-block;
+    background-image: url(../Imagenes/gif_pain.gif);
+    background-size: 1000px 567px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 140px;
+	background-color:#272626;
+    background-position-y: 190px;
+	
+}
+.what_i_do{
+	background-color:#8e0606;
+	border-top:8px solid rgba(0,0,0,0.1);
+}
+#header{
+	--list-style:none;
+	position:fixed;
+	background-color:red;
+	display:inline-flex;
+	width:100%;
+	background-color:#272626;
+	border-bottom:8px solid rgba(0,0,0,0.1);
+}
+#arrow_up{
+	padding-left: 8px;
+    position: relative;
+    top: 12px;
+	text-decoration:none;
+    left: 8px;
+}
+#arrow:hover > #arrow_up{
+	top: 0px;
+	transition:0.7s;
+}
+#arrow:hover{
+	background-color:black;
+	transition:0.7s;
+}
+#arrow{
+	position:fixed;
+	bottom:20px; 
+	right:30px; 
+	background-color:#74627d;
+	color:white; 
+	cursor:pointer;
+	padding-left: 5px;  
+	min-height: 52px;
+	width: 4%;
+	border-radius: 50%;
+	font-size: 35px;
+}
+#content {
+	background-color:gray;
+	width:100%;
+	padding-top:50px;
+}
+Body{
+	Padding:0;
+	Margin:0;
+}
+
+#header_menu{
+	padding-top:32px;
+	padding-left:190px;
+}
+#header_menu ul{
+	list-style:none;
+	display:inline-block;
+}
+#header_menu ul li{
+	padding-left:15px;
+	list-style:none;
+	display:inline-block;
+}
+#header_menu ul li:hover>a{
+	color:#db6614;
+	border-left:4px solid;
+	border-color:#db6614;
+	transition:0.7s;
+}
+
+.ref_menu{
+	text-decoration:none;
+	padding: 10px 0px 10px 10px;
+	border-left:4px solid;
+	border-color:transparent;
+}
+.profile_header{
+	display: inline-block;
+    width: 31%;
+    max-height: 115px;
+    background-color: #db6614;
+    border-radius: 50%;
+}
+.profile_header_small{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31%;
+    min-height: 115px;;
+}
